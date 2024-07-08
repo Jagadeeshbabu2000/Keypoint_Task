@@ -9,15 +9,13 @@ import UIKit
 
 class BannerCell: UITableViewCell {
 
+    @IBOutlet weak var bannerImage: UIImageView!
+    @IBOutlet weak var labelTitlt: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
 }

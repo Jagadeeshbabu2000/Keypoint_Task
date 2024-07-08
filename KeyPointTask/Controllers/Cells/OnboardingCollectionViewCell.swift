@@ -8,5 +8,10 @@
 import UIKit
 
 class OnboardingCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var onboardingImage: UIImageView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
     
 }
